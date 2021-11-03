@@ -1,26 +1,64 @@
-.img{
-    background: url("head_photo.jpg");
-    display: flex;
-    padding: 20px;
-    width: auto;
-    height: 880px;
+.img {
+  background: url("head_photo.jpg");
+  display: flex;
+  width: auto;
+  height: 880px;
 }
-.start2{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    margin-left: 1050px;
-    text-indent: 25px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif
+.start2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1050px;
+  text-indent: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
 }
-.start{
-    padding: 20px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+.start {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.startcen{
-    padding: 10px;
-    margin-right: 100px;
-    text-align:center;
+.startcen {
+  text-align: center;
+  padding: 170px;
+  margin-left: 6%;
+}
+.button {
+  font-size: 25px;
+  color: white;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  border-color: white;
+}
+.lowhead {
+  text-align: center;
+  padding: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 550px;
+}
+.body2 {
+  display: flex;
+}
+.fleex {
+  display: block;
+  float: left;
+  padding: 20px;
+  margin-left: 6%;
+  text-align: center;
+}
+.redc {
+  background-color: red;
+  padding: 100px;
+  margin-top: 450px;
+  text-align: center;
+}
+.ing {
+  width: 50px;
+  height: auto;
+  display: inline;
+  vertical-align: middle;
+  text-align: center;
+  float: inherit;
+  padding: 20px;
 }
