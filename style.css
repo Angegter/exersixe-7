@@ -46,6 +46,7 @@
   padding: 20px;
   margin-left: 6%;
   text-align: center;
+  
 }
 .redc {
   background-color: red;
@@ -61,4 +62,20 @@
   text-align: center;
   float: inherit;
   padding: 20px;
+}
+.horn{
+  padding:20px;
+  padding-right: 20px;
+}
+.wid{
+  width: 60px;
+}
+.fas.fa-font.fa-4x:hover{
+  transform: scale(1.2);
+}
+.fas.fa-code.fa-4x:hover{
+  transform: scale(1.2);
+}
+.fas.fa-life-ring.fa-4x:hover{
+transform: scale(1.2);
 }
